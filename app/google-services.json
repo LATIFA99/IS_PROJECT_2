@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "743254787301",
+    "firebase_url": "https://ktdaloansaccoapp.firebaseio.com",
+    "project_id": "ktdaloansaccoapp",
+    "storage_bucket": "ktdaloansaccoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743254787301:android:fa4cca99c8f621d9f1400c",
+        "android_client_info": {
+          "package_name": "info.ktdaloanapp.ktdaloansaccoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743254787301-snqch4ndhu516bb51bt5vesd0d11b5ii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.ktdaloanapp.ktdaloansaccoapp",
+            "certificate_hash": "9f3eb6ad9c78ded8210e4929a6efc2f8eadd34d7"
+          }
+        },
+        {
+          "client_id": "743254787301-qj53rrhs06aijdrrg3udlb2vt9u6cf38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQAKrcIz-fIFvIxb5dMbYNy6jHn-xON0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743254787301-qj53rrhs06aijdrrg3udlb2vt9u6cf38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">KtdaloanSaccoApp</string>
+    <string name="loan_amount_prompt">Loan amount:&#160;&#160;</string>
+    <string name="interest_name_prompt">Interest rate:&#160;&#160;</string>
+    <string name="loan_period_prompt">Months:&#160;&#160;</string>
+    <string name="loan_button_text">Calculate Payments</string>
+    <string name="monthly_payment_prompt">Monthly payment:&#160;&#160;</string>
+    <string name="total_payments_prompt">Total payments:&#160;&#160;</string>
+    <string name="loan_type_details">loan_type_details</string>
+    <array name="loan_type_details">
+        <item>ksh.300,000-100,000 1%per month 48months</item>
+        <item>ksh.500,000-150,000  1%per month 12months</item>
+        <item>ksh.800,000-200,000 1%per month 24months</item>
+        <item>ksh.400,000-50,000 1%per month 24months</item>
+        <item>ksh.1,800,000-200,000  1%per month 24months</item>
+        <item>ksh.300,000-50,000  2%per month 6months</item>
+        <item>ksh.1,000,000-500,000  1%per month 48months</item>
+        <item>ksh.100,000-50,000 10%per month 1month</item>
+    </array>
+    <array name="type_of_member">
+        <item>Employee</item>
+        <item>Farmer</item>
+    </array>
+    <string name="disabled_users_report">Report</string>
+
+</resources>

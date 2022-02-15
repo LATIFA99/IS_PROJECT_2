@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textviewLoanDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/loan_type_details"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+
+    <EditText
+        android:id="@+id/editTextTypeOfLoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/textviewLoanDetails"
+        android:hint="Enter Type Of Loan" />
+
+    <Spinner
+        android:id="@+id/spinnerLoanTypeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTypeOfLoan"
+        android:entries="@array/loan_type_details" />
+
+    <Button
+        android:id="@+id/buttonAddLoanType"
+        android:layout_width="match_parent"
+        android:background="#00FA9A"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerLoanTypeDetails"
+        android:text="add loan type" />
+
+    <ListView
+        android:id="@+id/listViewLoanTypes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonAddLoanType" />
+
+
+
+
+</RelativeLayout>
